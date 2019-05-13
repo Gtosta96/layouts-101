@@ -2,6 +2,7 @@
 .main-container {
   display: flex;
 }
+
 .sidebar {
   flex: 0 0 200px;
   height: 100vh;
@@ -9,11 +10,13 @@
   color: white;
   font-size: 14px;
 }
+
 .page-content {
   flex-grow: 1;
   height: 100vh;
   overflow-y: scroll;
 }
+
 .aside {
   flex: 0 0 350px;
   height: 100vh;
@@ -28,10 +31,12 @@
   padding: 0px;
   margin-top: 20px;
 }
+
 .sidebar li {
   padding: 5px 20px;
   font-weight: bold;
 }
+
 .sidebar i {
   opacity: 0.5;
   width: 15px;
@@ -43,23 +48,29 @@
   height: 40px;
   border-radius: 5px;
 }
+
 .message {
   display: flex;
   margin: 25px 40px;
 }
+
 .message h3, .message p {
   margin: 0px;
 }
+
 .message h3 {
   font-size: 14px;
 }
+
 .message span {
   font-weight: lighter;
   opacity: 0.5;
 }
+
 .message-body {
   padding-left: 10px;
 }
+
 .message-body p {
   font-size: 15px;
   font-weight: lighter;
@@ -71,6 +82,7 @@
   font-size: 20px;
   padding: 0px 20px;
 }
+
 .file {
   font-weight: bold;
   padding: 10px;
@@ -81,13 +93,16 @@
   align-items: center;
   font-size: 14px;
 }
+
 .file i {
   font-size: 30px;
   margin-right: 10px;
 }
+
 .file.video i {
   color: rgba(215, 43, 63, 1.00);
 }
+
 .file.code i {
   color: rgba(45, 158, 224, 1.00);
 }

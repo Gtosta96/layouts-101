@@ -4,15 +4,18 @@
   position: sticky !important;
   top: 0 !important;
 }
+
 .main-container {
   display: flex;
 }
+
 .results-container {
   flex-grow: 1;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
 .card {
   background-size: cover;
   background-position: center;
@@ -27,11 +30,13 @@
   text-shadow: 0 0 10px rgba(0,0,0,0.7);
   flex: 0 0 30%;
 }
+
 @media(max-width: 992px) {
   .card {
     flex: 0 0 45%;
   }
 }
+
 @media(max-width: 768px) {
   .card {
     flex: 0 0 90%;
